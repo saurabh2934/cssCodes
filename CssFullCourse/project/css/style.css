@@ -1,0 +1,191 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto+Slab:wght@400&display=swap');
+
+  :root {
+      --main-bg-color: #2874f0;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  header {
+      background-color: var(--main-bg-color);
+      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto Slab', serif;
+  }
+  main{
+    background-color: rgb(238, 238, 238) ;
+  }
+  nav {
+      display: flex;
+  }
+
+  .logo {
+      display: flex;
+      align-items: center;
+  }
+
+  .logo img {
+      width: 88px;
+      padding: 0 25px;
+  }
+
+  nav ul {
+      height: 60px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+
+  nav ul li {
+
+      list-style: none;
+      padding: 0 23px;
+  }
+
+  nav ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto Slab', serif;
+  }
+
+  nav ul li a:hover {
+      /* color: rgb(160, 125, 125);
+    font-style: bold; */
+      font-weight: bolder;
+      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto Slab', serif;
+  }
+
+  .search {
+      display: flex;
+      align-items: center;
+
+  }
+
+  .search input {
+      width: 493px;
+      height: 27px;
+      border-radius: 2px;
+      margin: 0 16px 0 56px;
+      padding: 0 12px;
+  }
+
+  .search button {
+      font-weight: 900;
+      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto Slab', serif;
+  }
+
+  .container {
+      min-height: calc(100vh - 60px - 10vh);
+  }
+
+  .slider {
+      margin: 4px auto;
+      width: 83vw;
+  }
+
+  .slider img {
+      height: 300px;
+      width: 1200px;
+  }
+
+  .card {
+      max-width: 91vw;
+      margin: auto;
+      overflow: hidden;
+
+  }
+  .cr{
+    background: white;
+    padding: 0 51px;
+ }
+.music{
+    background: white;
+    margin: 10px auto;
+    padding: 0 51px;
+}
+.mobile{
+    background: white;
+    margin: 10px auto;
+    padding: 0 51px;
+}
+  .card h2 {
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  .card-item {
+    padding: 0 5px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .card-item img {
+      border: 1px solid rgb(155, 155, 155);
+      border-radius: 10px;
+      margin: 3px;
+      height: 190px;
+      width: 180px;
+  }
+
+  .card-item img:hover {
+      transform: scale(103%);
+  }
+
+  .sugg h2{
+    width: 60vw;
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    margin: 3px 12px;
+  padding: 0px 12px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  }
+  .Vivo{
+    height: 90vh;
+    width: 28vw;
+    background-color: white;
+    margin: 0px 12px;
+
+  }
+  .Vivo img{
+    width: 15vw;
+  height: 67vh;
+  margin: 22px 51px;
+  }
+
+  .Vivo .lines{
+        display: flex;
+        justify-content: center;
+  }
+  .moto{
+    position: relative;
+  background-color: white;
+  left: 29vw;
+  width: 18vw;
+  bottom: 645px;
+  }
+  .moto img{
+    height: 150px;
+  width: 99px;
+  margin: 6px 82px;
+
+  }
+  .lines {
+      width: 26vh;
+  }
+
+  footer {
+      height: 10vh;
+      background-color: var(--main-bg-color);
+      color: white;
+      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto Slab', serif;
+  }

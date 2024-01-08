@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        li{
+            list-style: circle;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 70px;
+            position:sticky;
+            top: 0;
+            z-index: 1;
+        }
+        .box{
+            position: relative;
+            background-color: red;
+            width: 5vw;
+            height: 3vh;
+            border: 5px solid black;
+            text-align:  center;
+            left: 910px;
+            top: 28px;
+            }
+        
+        .box1{
+            background-color: aqua;
+            height: 1140px;
+            width: 50vw;
+            border: 5px solid yellow;
+            position: relative;
+            bottom: 30px;
+            left: 20vw;
+
+        }
+        .box2{
+            background-color: antiquewhite;
+            border: 3px solid black;
+            /* position: relative; */
+            position: fixed;
+            width: 30vw;
+            height: 20vh;
+            right: 0px;
+            bottom: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+       <nav>
+        <ul>
+            <li>Like </li>
+            <li>Comment</li>
+            <li>Share</li>
+        </ul>
+       </nav>
+    </header>
+    <div class="container">
+        <div class="box">Like</div>
+        <div class="box1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur aut em esse, adipisci modi magni eligendi hic consequuntur accusantium impedit veritatis reprehenderit inventore delectus officia libero saepe fugiat aut cum necessitatibus.
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ducimus adipisci voluptatem omnis optio ad atque. Aliquam natus, quae reprehenderit, ducimus delectus non fuga explicabo sed possimus repudiandae dolorum similique!
+        </div>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Oranges</li>
+        </ul>
+    </div>
+</body>
+</html>
